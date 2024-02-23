@@ -1,0 +1,15 @@
+body {display: flex;
+    justify-content: center;}
+    .cuadro {
+        margin-top: 0%;
+        width: 60%;
+        justify-content: center;
+        font-family: "Arimo";
+        background: linear-gradient(90deg, rgb(93, 104, 94), rgba(125, 148, 132, 0.678), rgba(229, 241, 219, 0.774));
+        -webkit-box-shadow: 9px 13px 25px 0px #0000002e;
+        -moz-box-shadow: 9px 13px 25px 0px #0000002e;
+        box-shadow: 9px 13px 25px 0px #0000002e;
+        animation: slideUp 2000ms ease; border-radius: 20px;}
+    h1{font-family: cursive; text-align: center;font-size: 60px; color: #000000; }
+    p {color: #000000; font-size: 20px; margin: 50px;}
+    

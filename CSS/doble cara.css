@@ -1,0 +1,156 @@
+body {
+  color: #333;
+  font-weight: normal;
+  margin: 0;
+  padding: 0; 
+  background: beige;
+}
+h1 {
+  background: linear-gradient(90deg, green, white, rgb(151, 14, 14));
+  color: black; font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 0 0 9% 0;
+  padding: 0.9em;
+  margin: 0 0 5% 0;
+  box-shadow: 9px 13px 25px 0px #0000002e;
+}
+
+h3 {
+  font-family:cursive, 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  cursor: pointer;
+  
+}
+.cardBox {
+  float: left;
+  font-size: 1.2em;
+  margin: 1% 0 0 1%;
+  perspective: 800px;
+  width: 23.7%;
+  
+}
+
+.card {
+  background: #0a6107;
+  cursor: pointer;
+  height: 300px;
+  border-radius: 30px
+}
+.card p {
+  margin-bottom: 1.8em;
+}
+.card .front,
+.card .back {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-size: 1.2em;
+  height: 100%;
+  padding: 0.8em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.card .front strong {
+  background: #fff;
+  border-radius: 100%;
+  color: #222;
+  font-size: 1.5em;
+  line-height: 30px;
+  padding: 0 7px 4px 6px;
+}
+
+
+.card .back {
+  transform: rotateY( 180deg);
+}
+
+.card .back a {
+  padding: 0.3em 0.5em;
+  background: #2a700a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 1px;
+  font-size: 0.9em;
+  box-shadow: 15px 5px 10px #7e7d7d;
+}
+
+.card .back a:hover {
+  background: #fff;
+  color: #333;
+  text-shadow: 0 0 1px #333;
+  border-radius: 30px;
+  box-shadow: 15px 5px 10px #7e7d7d;
+}
+
+
+.boxesContainer{
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+}
+
+.INFO{
+  color:floralwhite; 
+}
+
+#card2{
+  background-color: white;
+  border-radius: 30px; 
+  box-shadow: 15px 5px 10px #7e7d7d;
+}
+
+#card3{
+  background-color: rgba(156, 27, 27, 0.726);
+  border-radius: 30px;
+  box-shadow: 15px 5px 10px #7e7d7d;
+  
+}
+
+#card1{
+  background-color: rgba(47, 161, 72, 0.911);
+  border-radius: 30px;
+  box-shadow: 15px 5px 10px #7e7d7d;
+  transition-timing-function: cubic-bezier(0.2, 1, 0.2, 2);
+}
+
+.card h3{
+  margin-top: 30%;
+}
+
+footer{
+  margin-top: 200px;
+  background-color: rgba(180, 180, 180, 0.651);
+  padding-top: 20px;
+  
+}
+
+.votar{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+label{ color:grey; font-size: 40px;}
+input[type = "radio"]{ display:none;}
+.calificar{
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+label:hover{color:rgb(11, 114, 37);}
+label:hover ~ label{color:rgb(255, 255, 255);}
+input[type = "radio"]:checked ~ label{color:rgb(145, 6, 6);}
+
+.imagenes {
+overflow: hidden;
+}
+.izquierda {
+  float: left;
+  margin-right: 10px;
+}
+
+.derecha{
+  float:right;
+  margin-left: 10px;
+}
